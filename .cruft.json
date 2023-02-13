@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/DHARPA-Project/kiara_plugin.develop.git",
+  "commit": "842294c03ab4810f1d8f7a3e4cddee0bf972b366",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Markus Binsteiner",
+      "email": "markus@frkl.io",
+      "project_name": "dh_tagung_2023",
+      "project_slug": "dh_tagung_2023",
+      "project_short_description": "Examples, code and documentation for the DH Tagung 2023 kiara workshop.",
+      "github_user": "DHARPA-Project",
+      "anaconda_user": "dharpa",
+      "_template": "https://github.com/DHARPA-Project/kiara_plugin.develop.git"
+    }
+  },
+  "directory": null
+}
