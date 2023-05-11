@@ -35,6 +35,7 @@ dependencies = [
     "kiara_plugin.tabular>=0.4.22",
     "kiara_plugin.network_analysis>=0.4.10",
     "kiara_plugin.language_processing>=0.4.12",
+    "matplotlib=3.7.1",
 ]
 dynamic = ["version"]
 
