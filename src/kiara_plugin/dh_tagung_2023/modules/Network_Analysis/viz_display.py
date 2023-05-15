@@ -3,13 +3,18 @@ from pydantic import Field
 import pyarrow as pa
 from networkx.readwrite import json_graph
 
-
+KIARA_METADATA = {
+    "authors": [
+        {"name": "Mariella De Crouy", "email": "mariella.decrouychanel@uni.lu"},
+    ],
+    "description": "Kiara modules for: visualization",
+}
 
 class GetLineageData(KiaraModule):
     """ Get lineage data to display in visualization.
     """
 
-    _module_type_name = "playground.get_lineage_data"
+    _module_type_name = "get_lineage_data"
 
     def create_inputs_schema(
         self,
