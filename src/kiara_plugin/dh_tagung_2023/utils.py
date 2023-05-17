@@ -3,8 +3,6 @@
 def augment_lineage_data(item,kiara):
 
     graph = item.lineage.module_graph
-    nodes = graph.nodes.data()
-    augmented_nodes = dict()
     
     nodes = item.nodes.data()
     augmented_nodes = dict()
