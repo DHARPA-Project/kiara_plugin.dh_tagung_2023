@@ -4,7 +4,7 @@ def augment_lineage_data(item,kiara):
 
     graph = item.lineage.module_graph
     
-    nodes = item.nodes.data()
+    nodes = graph.nodes.data()
     augmented_nodes = dict()
 
 
@@ -41,4 +41,4 @@ def augment_lineage_data(item,kiara):
             }
             augmented_nodes[idx] = node_dict
 
-    return node_dict
+    return augmented_nodes
