@@ -30,12 +30,13 @@ classifiers = [
     "Programming Language :: Python :: 3.11"
 ]
 dependencies = [
-    "kiara>=0.4.38",
-    "kiara_plugin.onboarding>=0.4.3",
-    "kiara_plugin.tabular>=0.4.25",
-    "kiara_plugin.network_analysis>=0.4.12",
+    "kiara==0.4.39",
+    "kiara_plugin.onboarding==0.4.3",
+    "kiara_plugin.tabular==0.4.25",
+    "kiara_plugin.network_analysis==0.4.12",
     "matplotlib==3.7.1",
-    "observable-jupyter==0.1.14"
+    "observable-jupyter==0.1.14",
+    "scipy==1.10.1"
 ]
 dynamic = ["version"]
 
